@@ -17,11 +17,11 @@ console.log("In the north western corner there is a two desks, both littered wit
 
 export let hubArray = [
     { name: 'TV', action: async () => await tv() },
-    { name: 'Option 1', action: async () => await bobbyPinPuzzle() },
-    { name: 'Option 2', action: async () => await searchSkelton() },
-    { name: 'Option 3', action: async () => await searchDesks() },
-    { name: 'Option 4', action: async () => await terminalHackingPuzzle() },
-    { name: 'Option 5', action: async () => await searchShelves() },
+    { name: 'Locked cabinet', action: async () => await bobbyPinPuzzle() },
+    { name: 'Old skeleton', action: async () => await searchSkelton() },
+    { name: 'Desks', action: async () => await searchDesks() },
+    { name: 'A terminal', action: async () => await terminalHackingPuzzle() },
+    { name: 'Shelves', action: async () => await searchShelves() },
 ];
 
 
